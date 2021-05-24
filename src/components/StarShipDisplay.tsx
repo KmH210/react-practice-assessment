@@ -15,7 +15,7 @@ function StarShips() {
             <h2>Star Ships</h2>
             <ul>
                 {ships.map((ship, i)=> 
-                <li key={i}>{ship.name} {ship.model} {ship.max_atmosphering_speed} {ship.starship_class}</li>)}
+                <li key={i}>Ship Name: {ship.name}, Ship Model: {ship.model}, Max Atmosphering Speed: {ship.max_atmosphering_speed}, Starship class: {ship.starship_class}</li>)}
             </ul>
         </div>
     );

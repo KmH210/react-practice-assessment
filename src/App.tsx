@@ -15,6 +15,7 @@ function App() {
         <Link to="/pepsi"><h3>Pepsi</h3></Link>
         <Link to="/other/Faygo Cola"><h3>Faygo Cola</h3></Link>
         <Link to="/other/Vernors"><h3>Vernors</h3></Link>
+        <Link to ="/starshipdisplay"><h3>Star Ships</h3></Link>
        </header>
        <Switch>
          <Route path ="/coke">
